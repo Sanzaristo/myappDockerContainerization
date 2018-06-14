@@ -20,10 +20,15 @@ RUN apt-get install -y maven
 RUN apt-get install -y git
 
 # Get the repository onto the local system
-RUN git clone https://3a3c6e7c2c1351645835e95b6a535f93c8a22dfa@github.com/Sanzaristo/myappDockerContainerization.git
+#RUN git clone https://3a3c6e7c2c1351645835e95b6a535f93c8a22dfa@github.com/Sanzaristo/myappDockerContainerization.git
+mkdir foo
+cd foo
+git init
+git pull https://3a3c6e7c2c1351645835e95b6a535f93c8a22dfa@github.com/username/bar.git
 
 
 # Run the maven command to execute all the tests
+
 WORKDIR "/DockerSelenium"
 RUN mvn clean install test
 
