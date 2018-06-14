@@ -1,0 +1,524 @@
+[INFO  - 2018-06-14T20:43:45.988Z] GhostDriver - Main - running on port 18280
+[INFO  - 2018-06-14T20:43:46.304Z] Session [a236a5a0-7013-11e8-860d-cf5bba742d9b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-06-14T20:43:46.304Z] Session [a236a5a0-7013-11e8-860d-cf5bba742d9b] - page.customHeaders:  - {}
+[INFO  - 2018-06-14T20:43:46.304Z] Session [a236a5a0-7013-11e8-860d-cf5bba742d9b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-06-14T20:43:46.304Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a236a5a0-7013-11e8-860d-cf5bba742d9b
+[ERROR - 2018-06-14T20:43:49.234Z] Session [a236a5a0-7013-11e8-860d-cf5bba742d9b] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T20:43:49.235Z] Session [a236a5a0-7013-11e8-860d-cf5bba742d9b] - page.onError - stack:
+  global code (https://www.amazon.com/:2247)
+[ERROR - 2018-06-14T20:43:54.825Z] Session [a236a5a0-7013-11e8-860d-cf5bba742d9b] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T20:43:54.825Z] Session [a236a5a0-7013-11e8-860d-cf5bba742d9b] - page.onError - stack:
+  d (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:28)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:25)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:24)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:19)
+  sendEvent (:0)
+  _sendKeys (phantomjs://code/inputs.js:230)
+  _postValueCommand (phantomjs://code/webelement_request_handler.js:288)
+  _handle (phantomjs://code/webelement_request_handler.js:72)
+  _reroute (phantomjs://code/request_handler.js:61)
+  _handle (phantomjs://code/session_request_handler.js:120)
+  _reroute (phantomjs://code/request_handler.js:61)
+  _handle (phantomjs://code/router_request_handler.js:78)
+[ERROR - 2018-06-14T20:43:54.936Z] Session [a236a5a0-7013-11e8-860d-cf5bba742d9b] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T20:43:54.936Z] Session [a236a5a0-7013-11e8-860d-cf5bba742d9b] - page.onError - stack:
+  d (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:28)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:24)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:24)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:7)
+  sendEvent (:0)
+  _keyEvent (phantomjs://code/inputs.js:325)
+  _pressKey (phantomjs://code/inputs.js:280)
+  _sendKeys (phantomjs://code/inputs.js:231)
+  _postValueCommand (phantomjs://code/webelement_request_handler.js:288)
+  _handle (phantomjs://code/webelement_request_handler.js:72)
+  _reroute (phantomjs://code/request_handler.js:61)
+  _handle (phantomjs://code/session_request_handler.js:120)
+  _reroute (phantomjs://code/request_handler.js:61)
+  _handle (phantomjs://code/router_request_handler.js:78)
+[ERROR - 2018-06-14T20:43:55.977Z] Session [a236a5a0-7013-11e8-860d-cf5bba742d9b] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T20:43:55.977Z] Session [a236a5a0-7013-11e8-860d-cf5bba742d9b] - page.onError - stack:
+  d (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:28)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:25)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:24)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:19)
+[ERROR - 2018-06-14T20:43:57.618Z] Session [a236a5a0-7013-11e8-860d-cf5bba742d9b] - page.onError - msg: ReferenceError: Can't find variable: uet
+[ERROR - 2018-06-14T20:43:57.618Z] Session [a236a5a0-7013-11e8-860d-cf5bba742d9b] - page.onError - stack:
+  onload (https://www.amazon.com/Software-Testing/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3ASoftware%20Testing:1298)
+[ERROR - 2018-06-14T20:44:01.860Z] Session [a236a5a0-7013-11e8-860d-cf5bba742d9b] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T20:44:01.860Z] Session [a236a5a0-7013-11e8-860d-cf5bba742d9b] - page.onError - stack:
+  (anonymous function) (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:12506)
+  m (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:9)
+  (anonymous function) (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:11)
+  X (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:13)
+[INFO  - 2018-06-14T20:45:36.860Z] GhostDriver - Main - running on port 30946
+[INFO  - 2018-06-14T20:45:37.209Z] Session [e4518f40-7013-11e8-a30b-43ecbbe9b110] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-06-14T20:45:37.209Z] Session [e4518f40-7013-11e8-a30b-43ecbbe9b110] - page.customHeaders:  - {}
+[INFO  - 2018-06-14T20:45:37.209Z] Session [e4518f40-7013-11e8-a30b-43ecbbe9b110] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-06-14T20:45:37.210Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e4518f40-7013-11e8-a30b-43ecbbe9b110
+[ERROR - 2018-06-14T20:45:39.477Z] Session [e4518f40-7013-11e8-a30b-43ecbbe9b110] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T20:45:39.477Z] Session [e4518f40-7013-11e8-a30b-43ecbbe9b110] - page.onError - stack:
+  global code (https://www.amazon.com/:2247)
+[ERROR - 2018-06-14T20:45:45.496Z] Session [e4518f40-7013-11e8-a30b-43ecbbe9b110] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T20:45:45.497Z] Session [e4518f40-7013-11e8-a30b-43ecbbe9b110] - page.onError - stack:
+  d (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:28)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:25)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:24)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:19)
+  sendEvent (:0)
+  _sendKeys (phantomjs://code/inputs.js:230)
+  _postValueCommand (phantomjs://code/webelement_request_handler.js:288)
+  _handle (phantomjs://code/webelement_request_handler.js:72)
+  _reroute (phantomjs://code/request_handler.js:61)
+  _handle (phantomjs://code/session_request_handler.js:120)
+  _reroute (phantomjs://code/request_handler.js:61)
+  _handle (phantomjs://code/router_request_handler.js:78)
+[ERROR - 2018-06-14T20:45:46.620Z] Session [e4518f40-7013-11e8-a30b-43ecbbe9b110] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T20:45:46.620Z] Session [e4518f40-7013-11e8-a30b-43ecbbe9b110] - page.onError - stack:
+  d (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:28)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:25)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:24)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:19)
+[ERROR - 2018-06-14T20:45:46.738Z] Session [e4518f40-7013-11e8-a30b-43ecbbe9b110] - page.onError - msg: null
+[ERROR - 2018-06-14T20:45:46.738Z] Session [e4518f40-7013-11e8-a30b-43ecbbe9b110] - page.onError - stack:
+  logError (https://www.amazon.com/:15)
+[ERROR - 2018-06-14T20:45:48.187Z] Session [e4518f40-7013-11e8-a30b-43ecbbe9b110] - page.onError - msg: ReferenceError: Can't find variable: uet
+[ERROR - 2018-06-14T20:45:48.187Z] Session [e4518f40-7013-11e8-a30b-43ecbbe9b110] - page.onError - stack:
+  onload (https://www.amazon.com/Software-Testing/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3ASoftware%20Testing:1298)
+[ERROR - 2018-06-14T20:45:51.405Z] Session [e4518f40-7013-11e8-a30b-43ecbbe9b110] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T20:45:51.405Z] Session [e4518f40-7013-11e8-a30b-43ecbbe9b110] - page.onError - stack:
+  (anonymous function) (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:12506)
+  m (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:9)
+  (anonymous function) (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:11)
+  X (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:13)
+[INFO  - 2018-06-14T20:48:45.984Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T20:50:33.403Z] GhostDriver - Main - running on port 39723
+[INFO  - 2018-06-14T20:50:33.867Z] Session [9523fa60-7014-11e8-85eb-01f542360d89] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-06-14T20:50:33.867Z] Session [9523fa60-7014-11e8-85eb-01f542360d89] - page.customHeaders:  - {}
+[INFO  - 2018-06-14T20:50:33.867Z] Session [9523fa60-7014-11e8-85eb-01f542360d89] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-06-14T20:50:33.868Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9523fa60-7014-11e8-85eb-01f542360d89
+[INFO  - 2018-06-14T20:50:36.854Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-06-14T20:50:37.924Z] Session [9523fa60-7014-11e8-85eb-01f542360d89] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T20:50:37.925Z] Session [9523fa60-7014-11e8-85eb-01f542360d89] - page.onError - stack:
+  global code (https://www.amazon.com/:2268)
+[ERROR - 2018-06-14T20:50:43.065Z] Session [9523fa60-7014-11e8-85eb-01f542360d89] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T20:50:43.065Z] Session [9523fa60-7014-11e8-85eb-01f542360d89] - page.onError - stack:
+  d (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:28)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:25)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:24)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:19)
+  sendEvent (:0)
+  _sendKeys (phantomjs://code/inputs.js:230)
+  _postValueCommand (phantomjs://code/webelement_request_handler.js:288)
+  _handle (phantomjs://code/webelement_request_handler.js:72)
+  _reroute (phantomjs://code/request_handler.js:61)
+  _handle (phantomjs://code/session_request_handler.js:120)
+  _reroute (phantomjs://code/request_handler.js:61)
+  _handle (phantomjs://code/router_request_handler.js:78)
+[ERROR - 2018-06-14T20:50:44.646Z] Session [9523fa60-7014-11e8-85eb-01f542360d89] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T20:50:44.647Z] Session [9523fa60-7014-11e8-85eb-01f542360d89] - page.onError - stack:
+  d (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:28)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:25)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:24)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:19)
+[ERROR - 2018-06-14T20:50:46.364Z] Session [9523fa60-7014-11e8-85eb-01f542360d89] - page.onError - msg: ReferenceError: Can't find variable: uet
+[ERROR - 2018-06-14T20:50:46.364Z] Session [9523fa60-7014-11e8-85eb-01f542360d89] - page.onError - stack:
+  onload (https://www.amazon.com/Software-Testing/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3ASoftware%20Testing:1298)
+[ERROR - 2018-06-14T20:50:49.866Z] Session [9523fa60-7014-11e8-85eb-01f542360d89] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T20:50:49.866Z] Session [9523fa60-7014-11e8-85eb-01f542360d89] - page.onError - stack:
+  (anonymous function) (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:12551)
+  m (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:9)
+  (anonymous function) (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:11)
+  X (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:13)
+[INFO  - 2018-06-14T20:52:01.588Z] GhostDriver - Main - running on port 40614
+[INFO  - 2018-06-14T20:52:02.376Z] Session [c9e4c4f0-7014-11e8-9a26-b5f98505a2d3] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-06-14T20:52:02.376Z] Session [c9e4c4f0-7014-11e8-9a26-b5f98505a2d3] - page.customHeaders:  - {}
+[INFO  - 2018-06-14T20:52:02.376Z] Session [c9e4c4f0-7014-11e8-9a26-b5f98505a2d3] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-06-14T20:52:02.376Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: c9e4c4f0-7014-11e8-9a26-b5f98505a2d3
+[ERROR - 2018-06-14T20:52:04.977Z] Session [c9e4c4f0-7014-11e8-9a26-b5f98505a2d3] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T20:52:04.977Z] Session [c9e4c4f0-7014-11e8-9a26-b5f98505a2d3] - page.onError - stack:
+  global code (https://www.amazon.com/:2268)
+[ERROR - 2018-06-14T20:52:10.379Z] Session [c9e4c4f0-7014-11e8-9a26-b5f98505a2d3] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T20:52:10.380Z] Session [c9e4c4f0-7014-11e8-9a26-b5f98505a2d3] - page.onError - stack:
+  d (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:28)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:25)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:24)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:19)
+  sendEvent (:0)
+  _sendKeys (phantomjs://code/inputs.js:230)
+  _postValueCommand (phantomjs://code/webelement_request_handler.js:288)
+  _handle (phantomjs://code/webelement_request_handler.js:72)
+  _reroute (phantomjs://code/request_handler.js:61)
+  _handle (phantomjs://code/session_request_handler.js:120)
+  _reroute (phantomjs://code/request_handler.js:61)
+  _handle (phantomjs://code/router_request_handler.js:78)
+[ERROR - 2018-06-14T20:52:12.445Z] Session [c9e4c4f0-7014-11e8-9a26-b5f98505a2d3] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T20:52:12.446Z] Session [c9e4c4f0-7014-11e8-9a26-b5f98505a2d3] - page.onError - stack:
+  d (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:28)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:25)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:24)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:19)
+[ERROR - 2018-06-14T20:52:14.067Z] Session [c9e4c4f0-7014-11e8-9a26-b5f98505a2d3] - page.onError - msg: ReferenceError: Can't find variable: uet
+[ERROR - 2018-06-14T20:52:14.068Z] Session [c9e4c4f0-7014-11e8-9a26-b5f98505a2d3] - page.onError - stack:
+  onload (https://www.amazon.com/Software-Testing/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3ASoftware%20Testing:1298)
+[ERROR - 2018-06-14T20:52:18.249Z] Session [c9e4c4f0-7014-11e8-9a26-b5f98505a2d3] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T20:52:18.252Z] Session [c9e4c4f0-7014-11e8-9a26-b5f98505a2d3] - page.onError - stack:
+  (anonymous function) (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:12551)
+  m (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:9)
+  (anonymous function) (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:11)
+  X (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:13)
+[INFO  - 2018-06-14T20:53:45.978Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T20:55:33.384Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T20:55:36.835Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T20:57:01.570Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T20:58:39.853Z] GhostDriver - Main - running on port 30920
+[INFO  - 2018-06-14T20:58:40.209Z] Session [b70592a0-7015-11e8-98d4-d3947db3f48c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-06-14T20:58:40.209Z] Session [b70592a0-7015-11e8-98d4-d3947db3f48c] - page.customHeaders:  - {}
+[INFO  - 2018-06-14T20:58:40.209Z] Session [b70592a0-7015-11e8-98d4-d3947db3f48c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-06-14T20:58:40.209Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b70592a0-7015-11e8-98d4-d3947db3f48c
+[ERROR - 2018-06-14T20:58:42.267Z] Session [b70592a0-7015-11e8-98d4-d3947db3f48c] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T20:58:42.267Z] Session [b70592a0-7015-11e8-98d4-d3947db3f48c] - page.onError - stack:
+  global code (https://www.amazon.com/:2268)
+[INFO  - 2018-06-14T20:58:45.959Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-06-14T20:58:47.612Z] Session [b70592a0-7015-11e8-98d4-d3947db3f48c] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T20:58:47.612Z] Session [b70592a0-7015-11e8-98d4-d3947db3f48c] - page.onError - stack:
+  d (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:28)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:25)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:24)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:19)
+  sendEvent (:0)
+  _sendKeys (phantomjs://code/inputs.js:230)
+  _postValueCommand (phantomjs://code/webelement_request_handler.js:288)
+  _handle (phantomjs://code/webelement_request_handler.js:72)
+  _reroute (phantomjs://code/request_handler.js:61)
+  _handle (phantomjs://code/session_request_handler.js:120)
+  _reroute (phantomjs://code/request_handler.js:61)
+  _handle (phantomjs://code/router_request_handler.js:78)
+[ERROR - 2018-06-14T20:58:48.548Z] Session [b70592a0-7015-11e8-98d4-d3947db3f48c] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T20:58:48.549Z] Session [b70592a0-7015-11e8-98d4-d3947db3f48c] - page.onError - stack:
+  d (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:28)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:25)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:24)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:19)
+[ERROR - 2018-06-14T20:58:50.209Z] Session [b70592a0-7015-11e8-98d4-d3947db3f48c] - page.onError - msg: ReferenceError: Can't find variable: uet
+[ERROR - 2018-06-14T20:58:50.209Z] Session [b70592a0-7015-11e8-98d4-d3947db3f48c] - page.onError - stack:
+  onload (https://www.amazon.com/Software-Testing/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3ASoftware%20Testing:1298)
+[ERROR - 2018-06-14T20:58:53.963Z] Session [b70592a0-7015-11e8-98d4-d3947db3f48c] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T20:58:53.975Z] Session [b70592a0-7015-11e8-98d4-d3947db3f48c] - page.onError - stack:
+  (anonymous function) (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:12506)
+  m (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:9)
+  (anonymous function) (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:11)
+  X (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:13)
+[INFO  - 2018-06-14T21:00:33.380Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:00:36.828Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:02:01.562Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:03:39.850Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:03:45.953Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:05:33.375Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:05:36.820Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:07:01.555Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:08:39.844Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:08:45.950Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:09:02.986Z] GhostDriver - Main - running on port 48504
+[INFO  - 2018-06-14T21:09:03.228Z] Session [2a5f0870-7017-11e8-ad02-d1010305009b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-06-14T21:09:03.228Z] Session [2a5f0870-7017-11e8-ad02-d1010305009b] - page.customHeaders:  - {}
+[INFO  - 2018-06-14T21:09:03.228Z] Session [2a5f0870-7017-11e8-ad02-d1010305009b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-06-14T21:09:03.229Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2a5f0870-7017-11e8-ad02-d1010305009b
+[ERROR - 2018-06-14T21:09:06.080Z] Session [2a5f0870-7017-11e8-ad02-d1010305009b] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T21:09:06.083Z] Session [2a5f0870-7017-11e8-ad02-d1010305009b] - page.onError - stack:
+  global code (https://www.amazon.com/:2268)
+[INFO  - 2018-06-14T21:09:11.949Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-06-14T21:10:30.209Z] GhostDriver - Main - running on port 43664
+[INFO  - 2018-06-14T21:10:30.763Z] Session [5e8ba950-7017-11e8-b031-8737103426ff] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-06-14T21:10:30.763Z] Session [5e8ba950-7017-11e8-b031-8737103426ff] - page.customHeaders:  - {}
+[INFO  - 2018-06-14T21:10:30.763Z] Session [5e8ba950-7017-11e8-b031-8737103426ff] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-06-14T21:10:30.764Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5e8ba950-7017-11e8-b031-8737103426ff
+[INFO  - 2018-06-14T21:10:33.363Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-06-14T21:10:33.498Z] Session [5e8ba950-7017-11e8-b031-8737103426ff] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T21:10:33.498Z] Session [5e8ba950-7017-11e8-b031-8737103426ff] - page.onError - stack:
+  global code (https://www.amazon.com/:2247)
+[INFO  - 2018-06-14T21:10:36.809Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-06-14T21:10:39.382Z] Session [5e8ba950-7017-11e8-b031-8737103426ff] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T21:10:39.406Z] Session [5e8ba950-7017-11e8-b031-8737103426ff] - page.onError - stack:
+  d (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:28)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:25)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:24)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:19)
+  sendEvent (:0)
+  _sendKeys (phantomjs://code/inputs.js:230)
+  _postValueCommand (phantomjs://code/webelement_request_handler.js:288)
+  _handle (phantomjs://code/webelement_request_handler.js:72)
+  _reroute (phantomjs://code/request_handler.js:61)
+  _handle (phantomjs://code/session_request_handler.js:120)
+  _reroute (phantomjs://code/request_handler.js:61)
+  _handle (phantomjs://code/router_request_handler.js:78)
+[ERROR - 2018-06-14T21:10:40.509Z] Session [5e8ba950-7017-11e8-b031-8737103426ff] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T21:10:40.510Z] Session [5e8ba950-7017-11e8-b031-8737103426ff] - page.onError - stack:
+  d (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:28)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:25)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:24)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:19)
+[ERROR - 2018-06-14T21:10:42.036Z] Session [5e8ba950-7017-11e8-b031-8737103426ff] - page.onError - msg: ReferenceError: Can't find variable: uet
+[ERROR - 2018-06-14T21:10:42.036Z] Session [5e8ba950-7017-11e8-b031-8737103426ff] - page.onError - stack:
+  onload (https://www.amazon.com/Software-Testing/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3ASoftware%20Testing:1298)
+[INFO  - 2018-06-14T21:12:01.547Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:13:39.835Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:13:45.943Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:15:33.361Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:15:36.802Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:15:48.841Z] GhostDriver - Main - running on port 20461
+[INFO  - 2018-06-14T21:15:49.148Z] Session [1c518270-7018-11e8-af6c-8b3c6672b9c5] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-06-14T21:15:49.148Z] Session [1c518270-7018-11e8-af6c-8b3c6672b9c5] - page.customHeaders:  - {}
+[INFO  - 2018-06-14T21:15:49.149Z] Session [1c518270-7018-11e8-af6c-8b3c6672b9c5] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-06-14T21:15:49.149Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1c518270-7018-11e8-af6c-8b3c6672b9c5
+[ERROR - 2018-06-14T21:15:51.541Z] Session [1c518270-7018-11e8-af6c-8b3c6672b9c5] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T21:15:51.541Z] Session [1c518270-7018-11e8-af6c-8b3c6672b9c5] - page.onError - stack:
+  global code (https://www.amazon.com/:2247)
+[ERROR - 2018-06-14T21:15:56.748Z] Session [1c518270-7018-11e8-af6c-8b3c6672b9c5] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T21:15:56.749Z] Session [1c518270-7018-11e8-af6c-8b3c6672b9c5] - page.onError - stack:
+  d (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:28)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:25)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:24)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:19)
+  sendEvent (:0)
+  _sendKeys (phantomjs://code/inputs.js:230)
+  _postValueCommand (phantomjs://code/webelement_request_handler.js:288)
+  _handle (phantomjs://code/webelement_request_handler.js:72)
+  _reroute (phantomjs://code/request_handler.js:61)
+  _handle (phantomjs://code/session_request_handler.js:120)
+  _reroute (phantomjs://code/request_handler.js:61)
+  _handle (phantomjs://code/router_request_handler.js:78)
+[ERROR - 2018-06-14T21:15:57.831Z] Session [1c518270-7018-11e8-af6c-8b3c6672b9c5] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T21:15:57.832Z] Session [1c518270-7018-11e8-af6c-8b3c6672b9c5] - page.onError - stack:
+  d (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:28)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:25)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:24)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  forEach (:0)
+  notifyAll (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:4)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/31KhtijCACL.js?AUIClients/A11yClientSideMetrics:19)
+[ERROR - 2018-06-14T21:16:00.079Z] Session [1c518270-7018-11e8-af6c-8b3c6672b9c5] - page.onError - msg: ReferenceError: Can't find variable: uet
+[ERROR - 2018-06-14T21:16:00.080Z] Session [1c518270-7018-11e8-af6c-8b3c6672b9c5] - page.onError - stack:
+  onload (https://www.amazon.com/Software-Testing/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3ASoftware%20Testing:1298)
+[ERROR - 2018-06-14T21:16:04.214Z] Session [1c518270-7018-11e8-af6c-8b3c6672b9c5] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2018-06-14T21:16:04.214Z] Session [1c518270-7018-11e8-af6c-8b3c6672b9c5] - page.onError - stack:
+  (anonymous function) (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:12501)
+  m (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:9)
+  (anonymous function) (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:11)
+  X (https://www.amazon.com/Friendly-Introduction-Software-Testing/dp/1523477377:13)
+[INFO  - 2018-06-14T21:17:01.543Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:18:39.830Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:18:45.935Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:20:33.355Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:20:36.796Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:20:48.836Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:22:01.537Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:23:39.824Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:23:45.930Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:25:33.346Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:25:36.787Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:25:48.828Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:27:01.527Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:28:39.814Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:28:45.924Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:30:33.342Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:30:36.782Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:30:48.823Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:32:01.522Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:33:39.810Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:33:45.918Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:35:33.341Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:35:36.775Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:35:48.817Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:37:01.515Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:38:39.807Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:38:45.911Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:40:33.332Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:40:36.765Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:40:48.808Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:42:01.508Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:43:39.795Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:43:45.903Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:45:33.323Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:45:36.759Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:45:48.799Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:47:01.501Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:48:39.790Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:48:45.901Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:50:33.316Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:50:36.752Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:50:48.792Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:52:01.497Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:53:39.784Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:53:45.895Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:55:33.310Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:55:36.745Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:55:48.789Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:57:01.493Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:58:39.778Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T21:58:45.889Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:00:33.305Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:00:36.740Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:00:48.782Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:02:01.490Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:03:39.780Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:03:45.884Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:05:33.298Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:05:36.734Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:05:48.775Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:07:01.485Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:07:27.266Z] GhostDriver - Main - running on port 44362
+[INFO  - 2018-06-14T22:07:27.978Z] Session [535cfc20-701f-11e8-8932-87224c882aa9] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-06-14T22:07:27.979Z] Session [535cfc20-701f-11e8-8932-87224c882aa9] - page.customHeaders:  - {}
+[INFO  - 2018-06-14T22:07:27.979Z] Session [535cfc20-701f-11e8-8932-87224c882aa9] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-06-14T22:07:27.992Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 535cfc20-701f-11e8-8932-87224c882aa9
+[ERROR - 2018-06-14T22:07:30.677Z] Session [535cfc20-701f-11e8-8932-87224c882aa9] - page.onError - msg: TypeError: null is not an object (evaluating 'a.firstChild')
+[ERROR - 2018-06-14T22:07:30.682Z] Session [535cfc20-701f-11e8-8932-87224c882aa9] - page.onError - stack:
+  Vf (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:88)
+  Zf (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:89)
+  initialize (http://www.khabane.co.za/assets/js/khabane_script.js:54)
+  (anonymous function) (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:97)
+  (anonymous function) (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:66)
+  Id (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:63)
+  Xd (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:66)
+  (anonymous function) (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:163)
+  Load (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:21)
+  (anonymous function) (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:162)
+[INFO  - 2018-06-14T22:08:10.507Z] GhostDriver - Main - running on port 41763
+[INFO  - 2018-06-14T22:08:10.934Z] Session [6cf7db00-701f-11e8-a202-f5c51d67d5e4] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-06-14T22:08:10.935Z] Session [6cf7db00-701f-11e8-a202-f5c51d67d5e4] - page.customHeaders:  - {}
+[INFO  - 2018-06-14T22:08:10.935Z] Session [6cf7db00-701f-11e8-a202-f5c51d67d5e4] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-06-14T22:08:10.935Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 6cf7db00-701f-11e8-a202-f5c51d67d5e4
+[ERROR - 2018-06-14T22:08:15.094Z] Session [6cf7db00-701f-11e8-a202-f5c51d67d5e4] - page.onError - msg: TypeError: null is not an object (evaluating 'a.firstChild')
+[ERROR - 2018-06-14T22:08:15.095Z] Session [6cf7db00-701f-11e8-a202-f5c51d67d5e4] - page.onError - stack:
+  Vf (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:88)
+  Zf (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:89)
+  initialize (http://www.khabane.co.za/assets/js/khabane_script.js:54)
+  (anonymous function) (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:97)
+  (anonymous function) (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:66)
+  Id (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:63)
+  Xd (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:66)
+  (anonymous function) (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:163)
+  Load (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:21)
+  (anonymous function) (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:162)
+[INFO  - 2018-06-14T22:08:39.774Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:08:45.882Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:09:33.920Z] GhostDriver - Main - running on port 45420
+[INFO  - 2018-06-14T22:09:34.660Z] Session [9edef8b0-701f-11e8-8b61-41cbc522b208] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-06-14T22:09:34.661Z] Session [9edef8b0-701f-11e8-8b61-41cbc522b208] - page.customHeaders:  - {}
+[INFO  - 2018-06-14T22:09:34.666Z] Session [9edef8b0-701f-11e8-8b61-41cbc522b208] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-06-14T22:09:34.667Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9edef8b0-701f-11e8-8b61-41cbc522b208
+[ERROR - 2018-06-14T22:09:38.207Z] Session [9edef8b0-701f-11e8-8b61-41cbc522b208] - page.onError - msg: TypeError: null is not an object (evaluating 'a.firstChild')
+[ERROR - 2018-06-14T22:09:38.207Z] Session [9edef8b0-701f-11e8-8b61-41cbc522b208] - page.onError - stack:
+  Vf (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:88)
+  Zf (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:89)
+  initialize (http://www.khabane.co.za/assets/js/khabane_script.js:54)
+  (anonymous function) (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:97)
+  (anonymous function) (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:66)
+  Id (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:63)
+  Xd (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:66)
+  (anonymous function) (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:163)
+  Load (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:21)
+  (anonymous function) (https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize:162)
+[INFO  - 2018-06-14T22:10:33.296Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:10:36.731Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:10:48.766Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:12:01.479Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:12:27.257Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:13:10.499Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:13:39.767Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:13:45.870Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:14:33.913Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:15:33.291Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:15:36.723Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:15:48.759Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:17:01.475Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:17:27.261Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:18:10.574Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:18:39.762Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:18:45.866Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-14T22:19:33.911Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
