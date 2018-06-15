@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="15249" started-at="2018-06-14T22:11:25Z" finished-at="2018-06-14T22:11:40Z">
+  <suite name="Surefire suite" duration-ms="9007" started-at="2018-06-15T11:07:39Z" finished-at="2018-06-15T11:07:48Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="15249" started-at="2018-06-14T22:11:25Z" finished-at="2018-06-14T22:11:40Z">
+    <test name="Surefire test" duration-ms="9007" started-at="2018-06-15T11:07:39Z" finished-at="2018-06-15T11:07:48Z">
       <class name="com.khabane.app.ItemSearchTest">
-        <test-method status="PASS" signature="firstSearchResultIsRelatedTest()[pri:0, instance:com.khabane.app.ItemSearchTest@6be46e8f]" name="firstSearchResultIsRelatedTest" duration-ms="15164" started-at="2018-06-15T00:11:25Z" finished-at="2018-06-15T00:11:40Z">
+        <test-method status="PASS" signature="firstSearchResultIsRelatedTest()[pri:0, instance:com.khabane.app.ItemSearchTest@3567135c]" name="firstSearchResultIsRelatedTest" duration-ms="8994" started-at="2018-06-15T13:07:39Z" finished-at="2018-06-15T13:07:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstSearchResultIsRelatedTest -->

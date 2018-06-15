@@ -11,8 +11,7 @@ RUN apt-get install -y default-jdk
 RUN apt-get install -y default-jre
 
 # Install phantomjs
-RUN apt-get install -y phantomjs
-
+mvn
 # Install maven on ubuntu-selenium image
 RUN apt-get install -y maven
 
@@ -20,16 +19,12 @@ RUN apt-get install -y maven
 RUN apt-get install -y git
 
 # Get the repository onto the local system
-#RUN git clone https://3a3c6e7c2c1351645835e95b6a535f93c8a22dfa@github.com/Sanzaristo/myappDockerContainerization.git
-mkdir foo
-cd foo
-git init
-git pull https://3a3c6e7c2c1351645835e95b6a535f93c8a22dfa@github.com/username/bar.git
+RUN git clone https://3a3c6e7c2c1351645835e95b6a535f93c8a22dfa@github.com/Sanzaristo/myappDockerContainerization.git
 
 
 # Run the maven command to execute all the tests
 
-WORKDIR "/DockerSelenium"
+WORKDIR "/myappDockerContainerization"
 RUN mvn clean install test
 
 ENTRYPOINT ["/bin/bash"]
